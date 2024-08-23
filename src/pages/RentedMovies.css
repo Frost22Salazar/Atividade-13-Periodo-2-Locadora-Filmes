@@ -1,0 +1,34 @@
+.rented-movies-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .rented-movies-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .rented-movie-item {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .remove-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .remove-button:hover {
+    background-color: darkred;
+  }
+  
